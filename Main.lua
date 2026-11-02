@@ -2,7 +2,8 @@
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 
-local BASE_URL = "https://raw.githubusercontent.com/dprmz/Universal-Script/main/Modules/"
+-- URL Disesuaikan dengan Repo Point-blox
+local BASE_URL = "https://raw.githubusercontent.com/dprmz/Point-blox/main/Modules/"
 
 local function LoadModule(moduleName)
     local url = BASE_URL .. moduleName .. ".lua?t=" .. tostring(tick())
